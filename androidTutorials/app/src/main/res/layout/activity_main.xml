@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context="com.softcrylic.androidtutorials.activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:text="@string/User_registartion" />
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Enter your username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your Email-Id"
+        android:padding="10dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint = "Enter your password"
+        android:padding="10dp"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/DOBText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Select DOB"
+        android:focusable="false"
+        android:onClick="setDate"
+        android:padding="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:padding="10dp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:padding="10dp"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <Spinner
+        android:id="@+id/country_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Agree with terms and conditions"
+        android:onClick="onCheckboxClicked"/>
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Register Now"
+        android:onClick="onRegister"
+        />
+
+</LinearLayout>
