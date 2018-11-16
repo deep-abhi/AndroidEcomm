@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "806852544501",
+    "firebase_url": "https://training-928e3.firebaseio.com",
+    "project_id": "training-928e3",
+    "storage_bucket": "training-928e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806852544501:android:2ce361d2570bf3ba",
+        "android_client_info": {
+          "package_name": "com.softcrylic.training"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806852544501-g6ttf29avcaoplm5egqkli0j7596cb52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softcrylic.training",
+            "certificate_hash": "d9fc8c3a3fc1bd53bba92dea900331a079d1d082"
+          }
+        },
+        {
+          "client_id": "806852544501-q1isga7jrf00dtlmiqp8lemmgp7ovpea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBllgmCNtx8El6t8nPfjd4yy2UKcUTY4mM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806852544501-q1isga7jrf00dtlmiqp8lemmgp7ovpea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="10dp"
+    android:background="@color/bg">
+
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@drawable/logo1"
+    android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/user_email"
+        android:inputType="textEmailAddress"
+        android:textColorLink="@color/blink" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox.Dense"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/user_password"
+        android:inputType="textPassword"
+        android:textColorLink="@color/blink" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        style="@style/Base.Theme.MaterialComponents"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#b0bf1a"
+        android:onClick="userLogin"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="338dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:text="I've forgotten my password ?"
+    android:textColor="@color/design_default_color_primary"
+    android:textSize="12sp"
+    android:textStyle="italic"
+    android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Facebook Login"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="signIn"
+        android:text="Google Login"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="Not a member? Sign Up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:onClick="signUpScreen"
+        />
+
+</LinearLayout>
+

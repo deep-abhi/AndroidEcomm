@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerview_cart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btn_placeorder"
+        android:layout_gravity="bottom"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:text="Place Order"
+        android:textColor="@android:color/white"
+        android:theme="@style/Theme.MaterialButton">
+    </Button>
+</FrameLayout>

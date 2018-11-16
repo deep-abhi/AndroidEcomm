@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/bg">
+
+    <EditText
+        android:id="@+id/firstText"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter firstName"
+        android:inputType="textEmailAddress"
+        android:textColorLink="@color/blink"/>
+    <EditText
+        android:id="@+id/lastText"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter LastName"
+        android:inputType="textEmailAddress"
+        android:textColorLink="@color/blink"/>
+    <EditText
+        android:id="@+id/emailText"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/user_email"
+        android:inputType="textEmailAddress"
+        android:textColorLink="@color/blink"/>
+    <EditText
+        android:id="@+id/passwordText"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorLink="@color/blink"/>
+   <!-- <EditText
+        android:id="@+id/mobileText"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Mobile Number"
+        android:inputType="phone"
+        android:textColorLink="@color/blink"/>-->
+    <TextView
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:text="Creating an account means you're okay with our Terms of service,Privacy policy and refund policy"
+        android:textSize="15sp"
+        android:textColor="#5b39c6"/>
+
+    <Button
+        android:id="@+id/regBtn"
+        style="@style/Base.Theme.MaterialComponents"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#b0bf1a"
+        android:onClick="newUser"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:text="Already have an account."
+        android:textSize="15sp"
+        android:textColor="#5b39c6"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/loginbutton"
+        style="@style/Base.Theme.MaterialComponents"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:onClick="onPress" />
+</LinearLayout>
